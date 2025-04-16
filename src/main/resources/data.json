@@ -1,0 +1,139 @@
+{
+  "project" : "Tamil Nadu Circle FTTx 2025",
+  "metadata" : {
+    "id" : "a4f02c37-74a8-42c3-bf64-45cd28d5ff84",
+    "version" : "v1.0",
+    "generatedOn" : "2025-04-12T18:23:30.123Z"
+  },
+  "sites" : [ {
+    "site_id" : "TIR-TOWN-001",
+    "geography_type" : "urban",
+    "subscriber_profile" : {
+      "total_subscribers" : 26036,
+      "subscriber_distribution" : {
+        "4g" : 67,
+        "5g" : 40,
+        "ftth" : 1
+      }
+    },
+    "usage_assumptions" : {
+      "avg_daily_data_per_user_gb" : 4.36,
+      "peak_concurrency_percent" : 18,
+      "avg_session_duration_min" : 17,
+      "avg_bandwidth_per_session_mbps" : 1.85
+    },
+    "service_mix" : {
+      "internet" : 50,
+      "ott" : 30,
+      "volte" : 20
+    },
+    "growth_factors" : {
+      "yearly_growth_percent" : 49,
+      "peak_season_multiplier" : 1.46
+    }
+  }, {
+    "site_id" : "TMB-TOWN-002",
+    "geography_type" : "semi_urban",
+    "subscriber_profile" : {
+      "total_subscribers" : 44007,
+      "subscriber_distribution" : {
+        "4g" : 43,
+        "5g" : 18,
+        "ftth" : 11
+      }
+    },
+    "usage_assumptions" : {
+      "avg_daily_data_per_user_gb" : 1.76,
+      "peak_concurrency_percent" : 27,
+      "avg_session_duration_min" : 18,
+      "avg_bandwidth_per_session_mbps" : 4.77
+    },
+    "service_mix" : {
+      "internet" : 50,
+      "ott" : 30,
+      "volte" : 20
+    },
+    "growth_factors" : {
+      "yearly_growth_percent" : 10,
+      "peak_season_multiplier" : 1.38
+    }
+  }, {
+    "site_id" : "MAD-RURAL-003/",
+    "geography_type" : "semi_urban",
+    "subscriber_profile" : {
+      "total_subscribers" : 385130,
+      "subscriber_distribution" : {
+        "4g" : 59,
+        "5g" : 39,
+        "ftth" : 12
+      }
+    },
+    "usage_assumptions" : {
+      "avg_daily_data_per_user_gb" : 4.48,
+      "peak_concurrency_percent" : 22,
+      "avg_session_duration_min" : 10,
+      "avg_bandwidth_per_session_mbps" : 2.5
+    },
+    "service_mix" : {
+      "internet" : 50,
+      "ott" : 30,
+      "volte" : 20
+    },
+    "growth_factors" : {
+      "yearly_growth_percent" : 31,
+      "peak_season_multiplier" : 1.49
+    }
+  }, {
+    "site_id" : "MAD-URBAN-004",
+    "geography_type" : "urban",
+    "subscriber_profile" : {
+      "total_subscribers" : 454526,
+      "subscriber_distribution" : {
+        "4g" : 62,
+        "5g" : 44,
+        "ftth" : 25
+      }
+    },
+    "usage_assumptions" : {
+      "avg_daily_data_per_user_gb" : 3.72,
+      "peak_concurrency_percent" : 19,
+      "avg_session_duration_min" : 17,
+      "avg_bandwidth_per_session_mbps" : 1.62
+    },
+    "service_mix" : {
+      "internet" : 50,
+      "ott" : 30,
+      "volte" : 20
+    },
+    "growth_factors" : {
+      "yearly_growth_percent" : 18,
+      "peak_season_multiplier" : 1.27
+    }
+  }, {
+    "site_id" : "CHN-SEMIURBAN-005",
+    "geography_type" : "urban",
+    "subscriber_profile" : {
+      "total_subscribers" : 233249,
+      "subscriber_distribution" : {
+        "4g" : 30,
+        "5g" : 29,
+        "ftth" : 11
+      }
+    },
+    "usage_assumptions" : {
+      "avg_daily_data_per_user_gb" : 1.52,
+      "peak_concurrency_percent" : 25,
+      "avg_session_duration_min" : 12,
+      "avg_bandwidth_per_session_mbps" : 3.56
+    },
+    "service_mix" : {
+      "internet" : 50,
+      "ott" : 30,
+      "volte" : 20
+    },
+    "growth_factors" : {
+      "yearly_growth_percent" : 19,
+      "peak_season_multiplier" : 1.15
+    }
+  } ]
+}
